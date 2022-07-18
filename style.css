@@ -83,8 +83,9 @@ header::after{
 
 footer{
     height: auto;
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
+    line-height: 60px;
     color: white;
     border: solid rgb(195, 235, 236);
     border-bottom: none;

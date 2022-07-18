@@ -3,7 +3,6 @@ html, body{
     font-family: 'Andika New Basic';
     color: black;
     font-weight: lighter;
-    background-image: linear-gradient(to top,rgb(134, 12, 108), rgb(35, 180, 228)); 
     height: 100%;
 }
 
@@ -31,7 +30,7 @@ img{
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: solid rgb(195, 235, 236) 2px;
+    border: solid brown 2px;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -44,7 +43,7 @@ img{
     width: auto;
     border-radius: 5%;
     border-width: 3px;
-    border-color: rgb(241, 193, 104);
+    border-color: brown;
 }
 
 
@@ -64,11 +63,10 @@ a {
 .center{
     text-align: center;
     margin: 0 auto;
-
 }
 
 header{
-    border: solid rgb(195, 235, 236);
+    border: solid brown;
     border-top: none;
     border-right: none;
     border-left:none;
@@ -86,8 +84,8 @@ footer{
     font-size: 20px;
     font-style: italic;
     line-height: 60px;
-    color: white;
-    border: solid rgb(195, 235, 236);
+    color: black;
+    border: thin solid brown;
     border-bottom: none;
     border-right: none;
     border-left: none;
@@ -204,7 +202,7 @@ hr{
     margin-top: 50px;
     margin-bottom: 50px;
     border-style: solid;
-    border-color: rgb(9, 142, 194);
+    border-color: brown;
   }
 
   .infoblocks-button-image{

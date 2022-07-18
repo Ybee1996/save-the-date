@@ -1,6 +1,8 @@
 html, body{
     margin: 0;
     font-family: 'Andika New Basic';
+    color: black;
+    font-weight: lighter;
     background-image: linear-gradient(to top,rgb(134, 12, 108), rgb(35, 180, 228)); 
     height: 100%;
 }
@@ -12,6 +14,7 @@ html, body{
 
 .content {
     height: 100%;
+    margin-bottom: 10px;
   }
 
 em{
@@ -53,7 +56,7 @@ img{
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color:black;
 }
 
@@ -79,12 +82,11 @@ header::after{
 } 
 
 footer{
-    height:200px;
+    height: auto;
     font-size: 25px;
-    line-height: 50px;
     font-style: italic;
     color: white;
-    border: solid rgb(8, 7, 8) 1px;
+    border: solid rgb(195, 235, 236);
     border-bottom: none;
     border-right: none;
     border-left: none;

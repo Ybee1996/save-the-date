@@ -21,8 +21,9 @@ em{
 }
 
 img{
-    height: 30px;
-    width: auto; 
+    height: auto;
+    max-width: 30%; 
+    padding-right: 10px;
 }
 
 .heading{
@@ -30,7 +31,7 @@ img{
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: solid brown 2px;
+    border: brown 2px;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -63,10 +64,11 @@ a {
 .center{
     text-align: center;
     margin: 0 auto;
+    justify-content: center;
 }
 
 header{
-    border: solid brown;
+    border: brown;
     border-top: none;
     border-right: none;
     border-left:none;
@@ -85,7 +87,7 @@ footer{
     font-style: italic;
     line-height: 60px;
     color: black;
-    border: thin solid brown;
+    border: solid brown;
     border-bottom: none;
     border-right: none;
     border-left: none;
@@ -224,7 +226,8 @@ hr{
 
   .infoblocks-img{
     display: flex;
-    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
 }
 
 

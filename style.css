@@ -156,7 +156,7 @@ nav a:hover::before {
 h1{
     text-align: center;
     color: rgb(1, 9, 15); 
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     padding-top: 50px;
     margin: 0px;
 }
@@ -228,7 +228,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     padding-top: 20px;
 }
 

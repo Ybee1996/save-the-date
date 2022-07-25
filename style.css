@@ -23,7 +23,9 @@ em{
 img{
     height: auto;
     max-width: 30%; 
-    padding-right: 10px;
+    border: thick solid black;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .heading{
